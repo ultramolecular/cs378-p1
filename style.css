@@ -1,3 +1,57 @@
 body {
-    color: hotpink;
+    /* Changed font&color to something more visually appealing */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    /* A centered header with a light background */
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.menu {
+    /* Stack menu items vertically */
+    padding: 0;
+}
+
+.menu-item {
+    border: none;
+}
+
+.menu-item .card {
+    /* Round cards with a subtle shadow */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item button {
+    font-size: 1rem;
+}
+
+.price {
+    /* Price should stand out */
+    color: #28a745;
+    font-size: 1.5rem;
+}
+
+.img-fluid {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.lead {
+    font-size: 1rem;
+    color: #333;
+}
+
+button:hover {
+    /* Darken button color when hovering */
+    background-color: #4cae4c;
 }
