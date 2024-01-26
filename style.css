@@ -11,6 +11,17 @@ header {
     border-bottom: 1px solid #eee;
 }
 
+header .lead {
+    font-family: 'Fira Code', monospace;
+    color: #6f42c1;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
 .menu {
     /* Stack menu items vertically */
     padding: 0;
@@ -26,7 +37,22 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.menu-item .card-body {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .menu-item button {
+    display: block;
+    width: auto;
+    margin: 10px auto;
     font-size: 1rem;
 }
 
