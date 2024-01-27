@@ -12,11 +12,13 @@ header {
 }
 
 header .lead {
+    /* Slogan should have cursive brown color */
     font-family: 'Pacifico', cursive;
-    color: #42c27c !important;
+    color: #5d55c9 !important;
 }
 
 .logo {
+    /* Adjust logo */
     height: auto;
     width: 100px;
     margin-bottom: 10px;
