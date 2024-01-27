@@ -11,9 +11,9 @@ header {
     border-bottom: 1px solid #eee;
 }
 
-header .lead {
+header .container .lead {
     font-family: 'Pacifico', cursive;
-    color: #428fc2;
+    color: #42c27c;
 }
 
 .logo {
